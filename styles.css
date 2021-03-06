@@ -9,7 +9,10 @@
 
 .wrapper{
     margin: 0 auto 0; 
-    width: 700px;
+    padding: 0 20px;
+    max-width: 740px;
+    text-align: justify;
+    
 }
 
 nav{
@@ -79,8 +82,7 @@ ul li a:hover {
 
 .contactpics{
     width: 50px;
+    cursor: pointer;
+   
 }
 
-.contactpics:hover{
-    background-size: 100%;
-}
