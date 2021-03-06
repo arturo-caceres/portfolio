@@ -3,8 +3,13 @@
     padding: 0;
     box-sizing: border-box;
     color: #495057;
-    font-family: fa5-proxima-nova,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: 'Nunito', sans-serif;
     font-size: 28px;
+}
+
+.wrapper{
+    margin: 0 auto 0; 
+    width: 700px;
 }
 
 nav{
@@ -17,7 +22,6 @@ h2{
     color:#009DF7;
 
 }
-
 
 
 body{
@@ -71,4 +75,12 @@ ul li a:hover {
     
     color:silver
   
+}
+
+.contactpics{
+    width: 50px;
+}
+
+.contactpics:hover{
+    background-size: 100%;
 }
