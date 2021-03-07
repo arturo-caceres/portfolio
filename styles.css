@@ -11,8 +11,7 @@
     margin: 0 auto 0; 
     padding: 0 20px;
     max-width: 740px;
-    text-align: justify;
-    
+    text-align: justify;  
 }
 
 nav{
@@ -23,14 +22,12 @@ nav{
 
 h2{
     color:#007F72
-
 }
 
 
 body{
 height:100vh;
     background-color: #F8F9FA
-
 }
 
 #title{
@@ -102,13 +99,13 @@ i:hover{
 #external-sites a+a {
     margin-left: 20px;
 }
-
-h3{
+/* This is the style for the curriculum component */
+#curriculum h3{
    color: black
    font-weight: bold;
    margin: 20px 0;
 }
-h4{
+#curriculum h4{
     color: #007F72;
     text-align: justify;
     margin: 10px;
