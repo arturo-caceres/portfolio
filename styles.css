@@ -32,12 +32,12 @@ height:100vh;
     background-color: #F8F9FA
 
 }
-h1{
-    text-align:center
-}
 
-.title{
-    color:#9CE5DA
+#title{
+    margin: 30px;
+    text-align:center;
+    color: #9CE5DA;
+
 }
 
 .sub-title{
@@ -86,3 +86,30 @@ ul li a:hover {
    
 }
 
+i{
+    color: #007F72;
+
+}   
+i:hover{
+    color: #9CE5DA;
+}
+
+#external-sites{
+    margin: 50px;
+    text-align: center;
+
+}
+#external-sites a+a {
+    margin-left: 20px;
+}
+
+h3{
+   color: black
+   font-weight: bold;
+   margin: 20px 0;
+}
+h4{
+    color: #007F72;
+    text-align: justify;
+    margin: 10px;
+}
