@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    color: #495057;
+    color: black;
     font-family: 'Nunito', sans-serif;
     font-size: 28px;
 }
@@ -18,11 +18,11 @@
 nav{
     width: 100%;
     height: 100px;
-    background-color: slategrey;
+    background-color: #007F72
 }
 
 h2{
-    color:#009DF7;
+    color:#007F72
 
 }
 
@@ -37,11 +37,11 @@ h1{
 }
 
 .title{
-    color:#009DF7;
+    color:#9CE5DA
 }
 
 .sub-title{
-    color: darkcyan;
+    color: #9CE5DA
     font-size: 30px;
 }
 
@@ -50,7 +50,7 @@ h1{
     font-size: 20px;
 }
 .Date{
-    color: rosybrown;
+    color: #9CE5DA
     font-size: 15px;
 }
 
@@ -76,7 +76,7 @@ ul li a {
 
 ul li a:hover {
     
-    color:silver
+    color:#9CE5DA
   
 }
 
