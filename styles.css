@@ -52,7 +52,7 @@ height:100vh;
 }
 
 ul {
-
+    text-align: right;
 }
 
 ul li {
@@ -72,9 +72,7 @@ ul li a {
 }
 
 ul li a:hover {
-    
     color:#9CE5DA
-  
 }
 
 .contactpics{
