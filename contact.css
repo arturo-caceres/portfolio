@@ -1,12 +1,11 @@
-h1{
-    color:#9CE5DA
+h1 {
+  color: #9ce5da;
 }
 
-#external-sites{
-    margin: 50px;
-    text-align: center;
-
+#external-sites {
+  margin: 50px;
+  text-align: center;
 }
-#external-sites a+a {
-    margin-left: 20px;
+#external-sites a + a {
+  margin-left: 20px;
 }

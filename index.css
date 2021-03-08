@@ -1,20 +1,30 @@
 /*  Style of all font in index.css*/
 
-h2{
- margin: 40px 0 0 0;
- font-size: 50px;
- 
+h2 {
+  margin: 40px 0 0 0;
+  font-size: 50px;
 }
 
-.wrapper-text{
-    margin: 0 auto 0; 
-    padding: 0 20px;
-    max-width: 740px;
-    text-align: center;  
+.wrapper-text {
+  margin: 0 auto 0;
+  padding: 0 20px;
+  max-width: 740px;
+  text-align: center;
 }
 
-.information{
-    color: darkslategrey;    
-    font-size: 28px;
-    text-align: center;
+.information {
+  color: darkslategrey;
+  font-size: 28px;
+  text-align: center;
+}
+
+.avatar img {
+  width: 250px;
+  border: 6px solid #007f72;
+  border-radius: 50%;
+}
+
+.avatar {
+  margin: 50px;
+  text-align: center;
 }

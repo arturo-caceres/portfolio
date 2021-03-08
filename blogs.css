@@ -1,16 +1,15 @@
-#title{
-    color:#007F72;
-    margin: 30px;
-    text-align:center;
-
+#title {
+  color: #007f72;
+  margin: 30px;
+  text-align: center;
 }
 
-.sub-title{
-    color: #007F72;
-    font-size: 30px;
+.sub-title {
+  color: #007f72;
+  font-size: 30px;
 }
 
-.Date{
-    color: #007F72;
-    font-size: 15px;
+.Date {
+  color: #007f72;
+  font-size: 15px;
 }
