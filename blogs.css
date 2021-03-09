@@ -1,24 +1,41 @@
 #title {
   color: #007f72;
-  margin: 30px;
+  margin: 50px;
   text-align: center;
 }
 
 .sub-title {
   color: #007f72;
-  font-size: 30px;
+  font-size: 25px;
+  margin: 0 10px;
+  text-decoration: underline;
 }
 
 .Date {
   color: #007f72;
   font-size: 15px;
+  margin: 0 20px;
 }
 .blog-images {
-  max-width: 30%;
+  width: 250px;
+  height: 250px;
+  text-align: center;
+  border: 4px outset #007f72;
 }
 
 .blog-flexbox {
   display: flex;
   justify-content: center;
-  text-align: center;
+  text-align: left;
+  margin: 40px;
+}
+
+.information {
+  text-align: justify;
+  font-size: 20px;
+  margin: 5px 20px;
+}
+
+.right {
+  text-align: left;
 }
