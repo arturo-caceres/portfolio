@@ -1,5 +1,12 @@
-h1 {
-  color: #9ce5da;
+#get-in-touch {
+  text-align: center;
+  color: #007f72;
+  margin: 30px;
+  font-size: 35px;
+}
+
+.first-wrapper {
+  margin: 30px;
 }
 
 #external-sites {
@@ -7,7 +14,7 @@ h1 {
   text-align: center;
 }
 #external-sites a + a {
-  margin-left: 20px;
+  margin-left: 10px;
 }
 
 i {

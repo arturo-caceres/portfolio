@@ -1,9 +1,16 @@
-h1 {
-  color: #9ce5da;
+#title {
+  color: #007f72;
+  text-decoration: underline;
+  text-align: center;
+  margin: 30px;
+}
+
+h4 {
+  text-decoration: underline;
 }
 
 p {
-  color: #9ce5da;
+  color: #007f72;
 }
 
 /* This is the style for the curriculum component */
@@ -17,3 +24,9 @@ p {
   text-align: justify;
   margin: 10px;
 }
+section p{
+  font-size: 19px;
+  padding: 20px;
+  text-align: justify;
+}
+]
