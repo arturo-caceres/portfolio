@@ -13,3 +13,12 @@
   color: #007f72;
   font-size: 15px;
 }
+.blog-images {
+  max-width: 30%;
+}
+
+.blog-flexbox {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
