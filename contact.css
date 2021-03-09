@@ -9,3 +9,10 @@ h1 {
 #external-sites a + a {
   margin-left: 20px;
 }
+
+i {
+  color: #007f72;
+}
+#external-sites i:hover {
+  color: #9ce5da;
+}

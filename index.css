@@ -1,7 +1,7 @@
 /*  Style of all font in index.css*/
 
 h2 {
-  margin: 40px 0 0 0;
+  margin: 10px 0 0 0;
   font-size: 50px;
 }
 
@@ -16,6 +16,7 @@ h2 {
   color: darkslategrey;
   font-size: 28px;
   text-align: center;
+  margin-bottom: 30px;
 }
 
 .avatar img {
@@ -25,6 +26,85 @@ h2 {
 }
 
 .avatar {
-  margin: 50px;
+  margin: 40px 0 10px;
   text-align: center;
+}
+
+.about-me {
+  padding-top: 40px;
+  height: 400px;
+  max-width: 100%;
+  background-color: #007f72;
+}
+
+.me-title {
+  text-align: center;
+  color: white;
+}
+
+.me-content {
+  max-width: 800px;
+  margin: 40px auto;
+  color: white;
+  font-size: 20px;
+}
+
+.banner {
+  width: 300px;
+  border-radius: 50px;
+}
+.image-wrapper {
+  text-align: center;
+}
+
+.skills {
+  background-color: white;
+  width: 900px;
+  margin: 0 auto;
+  height: 500px;
+  margin-top: -100px;
+  border-radius: 10px;
+  display: flex;
+  border: 3px solid #007f72;
+}
+
+.skill-column {
+  flex-grow: 1;
+  flex-basis: 0;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+.skill-column + .skill-column {
+  border-left: 3px solid #007f72;
+}
+
+ul li {
+  list-style: none;
+  font-size: 20px;
+}
+
+.skill-column > * {
+  margin: 10px;
+}
+
+.title-type {
+  color: black;
+  font-size: 30px;
+  text-decoration: underline;
+}
+.title-text {
+  color: black;
+  font-size: 20px;
+}
+
+.subtitle-skills {
+  font-size: 20px;
+  margin: 10px 10px 0;
+  color: #007f72;
+}
+
+.skill-column i {
+  margin: 40px;
+  color: #007f72;
 }
