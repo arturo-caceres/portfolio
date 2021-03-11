@@ -59,7 +59,7 @@ h2 {
 
 .skills {
   background-color: white;
-  width: 900px;
+  max-width: 900px;
   margin: 0 auto;
   height: 500px;
   margin-top: -100px;
@@ -133,6 +133,7 @@ ul li {
     justify-content: space-evenly;
     width: 100%;
   }
+
   .home-li {
     display: none;
   }
@@ -143,6 +144,41 @@ ul li {
 
   nav ul li a {
     font-size: 18px;
+  }
+
+  h2 {
+    font-size: 30px;
+  }
+
+  .information {
+    font-size: 18px;
+  }
+
+  .avatar img {
+    width: 180px;
+  }
+
+  .banner {
+    margin: 20px;
+  }
+
+  .me-content {
+    margin: 20px;
+    text-align: justify;
+    font-size: 18px;
+  }
+
+  .skills {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: auto;
+    max-width: 335px;
+  }
+
+  .skill-column + .skill-column {
+    border-left: 0 solid #007f72;
+    border-top: 3px solid #007f72;
   }
 }
 
