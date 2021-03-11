@@ -39,3 +39,43 @@
 .right {
   text-align: left;
 }
+
+@media screen and (max-width: 640px) {
+  .nav-container {
+    flex-direction: row;
+    align-items: baseline;
+  }
+  nav {
+    height: 90px;
+  }
+  .logo {
+    font-size: 15px;
+    color: white;
+    text-align: center;
+    border: 3px solid white;
+    margin: 20px;
+    width: 50px;
+    height: 50px;
+    line-height: 45px;
+  }
+
+  nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+  }
+  .home-li {
+    display: none;
+  }
+
+  nav ul li {
+    line-height: 50px;
+  }
+
+  nav ul li a {
+    font-size: 18px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+}
