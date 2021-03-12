@@ -1,16 +1,38 @@
 #title {
   color: #007f72;
-  text-decoration: underline;
   text-align: center;
   margin: 30px;
 }
 
-h4 {
+h3 {
   text-decoration: underline;
+}
+
+.illustration {
+  width: 300px;
+}
+
+i {
+  color: #007f72;
+}
+
+.main-focus {
+  text-align: end;
+  max-width: 1000px;
+  margin: auto;
 }
 
 p {
   color: #007f72;
+}
+
+.job-title {
+  color: #007f72;
+}
+
+#curriculum {
+  max-width: 900px;
+  margin: -200px auto;
 }
 
 /* This is the style for the curriculum component */
@@ -64,6 +86,16 @@ section p {
 
   nav ul li a {
     font-size: 18px;
+  }
+
+  .main-focus {
+    text-align: center;
+    margin: auto;
+  }
+
+  #curriculum {
+    max-width: 900px;
+    margin: auto;
   }
 }
 
