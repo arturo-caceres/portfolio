@@ -14,6 +14,7 @@ h3 {
 
 i {
   color: #007f72;
+  margin: 10px;
 }
 
 .main-focus {
@@ -23,12 +24,13 @@ i {
 }
 
 p {
-  color: #007f72;
+  color: #5b5c5d;
+  margin: 0 -20px;
 }
 
 .job-title {
   color: #23857a;
-  font-size: 23px;
+  font-size: 22px;
 }
 .workplace {
   color: #3dc08d;
@@ -36,11 +38,11 @@ p {
 }
 .country {
   color: #23857a;
-  font-size: 23px;
+  font-size: 22px;
 }
 .period {
   color: darkgray;
-  font-size: 20px;
+  font-size: 15px;
 }
 
 hr {
@@ -70,8 +72,15 @@ section p {
 }
 
 .cv {
+  display: flex;
+  flex-direction: column;
   text-align: center;
   margin: 30px;
+  font-size: 20px;
+}
+
+a :hover {
+  color: #9ce5da;
 }
 
 @media screen and (max-width: 640px) {
@@ -117,9 +126,13 @@ section p {
 
   #curriculum {
     max-width: 900px;
-    margin: auto;
+    margin: 0 15px;
   }
 }
 
-@media screen and (min-width: 1280px) {
+@media screen and (max-width: 1000px) {
+  #curriculum {
+    max-width: 900px;
+    margin: 0 30px;
+  }
 }
