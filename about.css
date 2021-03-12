@@ -1,7 +1,7 @@
 #title {
   color: #007f72;
   text-align: center;
-  margin: 30px;
+  margin: 30px 0 0;
 }
 
 h3 {
@@ -27,7 +27,20 @@ p {
 }
 
 .job-title {
-  color: #007f72;
+  color: #23857a;
+  font-size: 23px;
+}
+.workplace {
+  color: #3dc08d;
+  font-size: 25px;
+}
+.country {
+  color: #23857a;
+  font-size: 23px;
+}
+.period {
+  color: darkgray;
+  font-size: 20px;
 }
 
 #curriculum {
@@ -50,6 +63,11 @@ section p {
   font-size: 19px;
   padding: 20px;
   text-align: justify;
+}
+
+.cv {
+  text-align: center;
+  margin: 30px;
 }
 
 @media screen and (max-width: 640px) {
