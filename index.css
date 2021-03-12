@@ -20,13 +20,11 @@ h2 {
 }
 
 .avatar img {
-  width: 250px;
-  border: 6px solid #007f72;
-  border-radius: 50%;
+  width: 300px;
 }
 
 .avatar {
-  margin: 40px 0 10px;
+  margin: 10px 0 10px;
   text-align: center;
 }
 
@@ -155,7 +153,7 @@ ul li {
   }
 
   .avatar img {
-    width: 180px;
+    width: 350px;
   }
 
   .banner {
