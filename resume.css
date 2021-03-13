@@ -4,42 +4,8 @@
   margin: auto;
 }
 
-#curriculum h3 {
-  text-decoration: underline;
-}
-
 .illustration {
   width: 300px;
-}
-
-i {
-  color: #007f72;
-  margin: 10px;
-}
-
-.job-listing p {
-  color: #5b5c5d;
-}
-
-.job-title {
-  color: #23857a;
-  font-size: 22px;
-}
-.workplace {
-  color: #3dc08d;
-  font-size: 25px;
-}
-.country {
-  color: #23857a;
-  font-size: 22px;
-}
-.period {
-  color: darkgray;
-  font-size: 15px;
-}
-
-hr {
-  margin: 10px;
 }
 
 #curriculum {
@@ -47,21 +13,38 @@ hr {
   margin: -200px auto;
 }
 
-/* This is the style for the curriculum component */
-#curriculum h3 {
+#curriculum h2 {
+  text-decoration: underline;
   color: black;
   margin: 20px 0;
 }
 
-#curriculum h4 {
+/* Text Component - Job List  */
+.job-listing .job-title {
   color: #007f72;
-  text-align: justify;
-  margin: 10px;
+  font-size: 22px;
 }
-section p {
+.job-listing .workplace {
+  color: #1e5a43;
+  font-size: 25px;
+}
+.job-listing .country {
+  color: #007f72;
+  font-size: 22px;
+}
+.job-listing .period {
+  color: #5b5c5d;
+  font-size: 15px;
+}
+.job-listing p {
   font-size: 19px;
   padding: 20px 0;
   text-align: justify;
+  color: #5b5c5d;
+}
+
+hr {
+  margin: 10px 0;
 }
 
 .cv {
@@ -72,7 +55,13 @@ section p {
   font-size: 20px;
 }
 
-a :hover {
+.cv i {
+  color: #007f72;
+  margin: 10px;
+  display: block;
+}
+
+.cv a :hover {
   color: #9ce5da;
 }
 

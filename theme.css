@@ -41,12 +41,12 @@ nav ul li a {
   display: block;
   text-decoration: none;
   font-size: 20px;
-  color: #9ce5da;
+  color: snow;
   padding: 0 10px;
 }
 
 nav ul li a:hover {
-  color: snow;
+  color: #9ce5da;
 }
 
 /* Text component - Title */
