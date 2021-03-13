@@ -19,8 +19,12 @@ i {
 }
 
 .contact-info span {
-  font-size: 25px;
+  font-size: 30px;
   margin: 10px;
+}
+
+.contact-info span a {
+  text-decoration: underline;
 }
 
 #external-sites i:hover {
@@ -30,7 +34,13 @@ i {
 .flex-information {
   display: flex;
   justify-content: space-evenly;
-  margin: 50px 100px;
+  margin: 50px auto;
+  max-width: 900px;
+  align-items: center;
+}
+
+.icon-text {
+  display: flex;
   align-items: center;
 }
 
@@ -77,6 +87,12 @@ i {
 
   nav ul li a {
     font-size: 18px;
+  }
+
+  .flex-information {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
   }
 }
 
