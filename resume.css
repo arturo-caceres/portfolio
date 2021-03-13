@@ -1,4 +1,4 @@
-.main-focus {
+.resume .main-focus {
   text-align: end;
   max-width: 900px;
   margin: auto;
@@ -10,7 +10,7 @@
 
 #curriculum {
   max-width: 900px;
-  margin: -200px auto;
+  margin: -200px auto 0;
 }
 
 #curriculum h2 {
