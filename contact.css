@@ -94,6 +94,9 @@ i {
     flex-direction: column;
     margin: 0;
   }
+  .contact-me img {
+    margin: 0;
+  }
 }
 
 @media screen and (min-width: 1280px) {
