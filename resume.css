@@ -1,4 +1,10 @@
-h3 {
+.main-focus {
+  text-align: end;
+  max-width: 900px;
+  margin: auto;
+}
+
+#curriculum h3 {
   text-decoration: underline;
 }
 
@@ -11,15 +17,8 @@ i {
   margin: 10px;
 }
 
-.main-focus {
-  text-align: end;
-  max-width: 1000px;
-  margin: auto;
-}
-
-p {
+.job-listing p {
   color: #5b5c5d;
-  margin: 0 -20px;
 }
 
 .job-title {
@@ -61,7 +60,7 @@ hr {
 }
 section p {
   font-size: 19px;
-  padding: 20px;
+  padding: 20px 0;
   text-align: justify;
 }
 
@@ -78,41 +77,6 @@ a :hover {
 }
 
 @media screen and (max-width: 640px) {
-  .nav-container {
-    flex-direction: row;
-    align-items: baseline;
-  }
-  nav {
-    height: 90px;
-  }
-  .logo {
-    font-size: 15px;
-    color: white;
-    text-align: center;
-    border: 3px solid white;
-    margin: 20px;
-    width: 50px;
-    height: 50px;
-    line-height: 45px;
-  }
-
-  nav ul {
-    display: flex;
-    justify-content: space-evenly;
-    width: 100%;
-  }
-  .home-li {
-    display: none;
-  }
-
-  nav ul li {
-    line-height: 50px;
-  }
-
-  nav ul li a {
-    font-size: 18px;
-  }
-
   .main-focus {
     text-align: center;
     margin: auto;
@@ -124,9 +88,10 @@ a :hover {
   }
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (min-width: 640px) and (max-width: 1280px) {
   #curriculum {
     max-width: 900px;
-    margin: 0 30px;
+    margin: -200px auto;
+    padding: 20px;
   }
 }

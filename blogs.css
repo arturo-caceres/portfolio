@@ -1,26 +1,27 @@
-.sub-title {
-  color: #007f72;
-  font-size: 25px;
-  margin: 0 10px;
-  text-decoration: underline;
+.container {
+  max-width: 1000px;
+  margin: auto;
 }
 
-.Date {
-  color: #007f72;
-  font-size: 15px;
-  margin: 0 20px;
+/* Text and Graphic Component - Blog Post  */
+.blog-flexbox {
+  display: flex;
+  text-align: left;
+  margin: 40px;
 }
-.blog-images {
+
+.blog-image {
   width: 250px;
   height: 250px;
   text-align: center;
   border: 4px outset #007f72;
 }
 
-.blog-flexbox {
-  display: flex;
-  text-align: left;
-  margin: 40px;
+.sub-title {
+  color: #007f72;
+  font-size: 25px;
+  margin: 0 10px;
+  text-decoration: underline;
 }
 
 .information {
@@ -29,53 +30,14 @@
   margin: 5px 20px;
 }
 
-/* .right {
-  text-align: left;
-} */
-
-.container {
-  max-width: 1000px;
-  margin: auto;
+.Date {
+  color: #007f72;
+  font-size: 15px;
+  margin: 0 20px;
 }
 
 /* Mobile Responsive Layout: */
 @media screen and (max-width: 640px) {
-  .nav-container {
-    flex-direction: row;
-    align-items: baseline;
-  }
-  nav {
-    height: 90px;
-  }
-  .logo {
-    font-size: 15px;
-    color: white;
-    text-align: center;
-    border: 3px solid white;
-    margin: 20px;
-    width: 50px;
-    height: 50px;
-    line-height: 45px;
-  }
-
-  nav ul {
-    display: flex;
-    justify-content: space-evenly;
-    width: 100%;
-  }
-
-  .home-li {
-    display: none;
-  }
-
-  nav ul li {
-    line-height: 50px;
-  }
-
-  nav ul li a {
-    font-size: 18px;
-  }
-
   .blog-flexbox {
     display: flex;
     flex-direction: column;
