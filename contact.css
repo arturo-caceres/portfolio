@@ -1,21 +1,4 @@
-i {
-  color: #007f72;
-}
-
-.contact-info span {
-  font-size: 30px;
-  margin: 10px;
-}
-
-.contact-info span a {
-  text-decoration: underline;
-}
-
-#external-sites i:hover {
-  color: #9ce5da;
-}
-
-.flex-information {
+.contact-data {
   display: flex;
   justify-content: space-evenly;
   margin: 50px auto;
@@ -23,17 +6,40 @@ i {
   align-items: center;
 }
 
+/* Graphic Component - Contact Item */
 .icon-text {
   display: flex;
   align-items: center;
 }
 
-/* Contact icons(Github, LinkedIn & Twitter */
+.icon-text i {
+  color: #007f72;
+}
+
+.icon-text span {
+  font-size: 30px;
+  margin: 10px;
+}
+
+.icon-text span a {
+  text-decoration: underline;
+}
+
 #external-sites {
   margin: 50px;
   text-align: center;
 }
-#external-sites a + a {
+
+/* Graphic Component - Social Media */
+.social-media i {
+  color: #007f72;
+}
+
+.social-media i:hover {
+  color: #9ce5da;
+}
+
+#external-sites .social-media + .social-media {
   margin-left: 10px;
 }
 
@@ -73,7 +79,7 @@ i {
     font-size: 18px;
   }
 
-  .flex-information {
+  .contact-data {
     display: flex;
     flex-direction: column;
     margin: 0;
