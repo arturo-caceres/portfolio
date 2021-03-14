@@ -99,7 +99,7 @@
 }
 
 @media screen and (max-width: 640px) {
-  h2 {
+  .intro-to-site h2 {
     font-size: 30px;
   }
 
