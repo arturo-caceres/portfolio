@@ -10,11 +10,16 @@
   margin: 40px;
 }
 
+.blog-image-wrapper {
+  text-align: center;
+}
+
 .blog-image {
   width: 250px;
   height: 250px;
   text-align: center;
-  border: 4px outset #007f72;
+  border: 4px solid #007f72;
+  border-radius: 15px;
 }
 
 .sub-title {
@@ -25,7 +30,6 @@
 }
 
 .information {
-  text-align: justify;
   font-size: 20px;
   margin: 5px 20px;
 }
@@ -41,7 +45,6 @@
   .blog-flexbox {
     display: flex;
     flex-direction: column;
-    text-align: center;
   }
 
   h2 {
